@@ -18,7 +18,7 @@ import org.openqa.selenium.io.FileHandler;
 public class Utility 
 {
 	static String  data;
-	
+	int a;
 // for take screen shot
 	public static void captureScreenShot(String testId,WebDriver driver) throws IOException
 	{
