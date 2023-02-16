@@ -19,6 +19,7 @@ public class Utility
 {
 	static String  data;
 	int bhavana;
+	int sonal;
 // for take screen shot
 	public static void captureScreenShot(String testId,WebDriver driver) throws IOException
 	{
