@@ -71,16 +71,16 @@ public class VerifyRegistrastion extends BrowserClass
 		soft.assertEquals(actualNameLabelText, expectedNameLabelText, "Name Lable Text is wrong");
 	//get name from excelSheet
 		String name = Utility.getDataFromExcel("registration", row, 0);
-		registration.sendName(name);
+		registration.sendName(Utility.getDataFromExcel("registration", row, 0));
 		
 	//verify mobile label text
 		String actualMobileText = registration.verifymobileText();
 		String expectedMobileText = "Mobile number";
 		soft.assertEquals(actualMobileText, expectedMobileText, "Mobile Lable Text is wrong");
 	//get mobile from excelSheet
-		String mobile = Utility.getDataFromExcel("registration", row, 1);
+		//String mobile = Utility.getDataFromExcel("registration", row, 1);
 
-		registration.sendMobile(mobile);
+		registration.sendMobile(Utility.getDataFromExcel("registration", row, 1));
 	//verify mobile label text
 		String actualPassText = registration.verifyPasswordText();
 		System.out.println(actualPassText);

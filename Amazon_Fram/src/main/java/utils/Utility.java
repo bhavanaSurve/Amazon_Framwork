@@ -18,9 +18,11 @@ import org.openqa.selenium.io.FileHandler;
 public class Utility 
 {
 	static String  data;
+
 	int bhavana;
 	int sonal;
-// for take screen shot
+
+
 	public static void captureScreenShot(String testId,WebDriver driver) throws IOException
 	{
 		// this is predifine class in java import from java.text in constructor pass our formate

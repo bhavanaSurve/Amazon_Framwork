@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-13T13:02:14 IST" name="Suite" finished-at="2023-02-13T13:02:35 IST" duration-ms="21232">
+  <suite started-at="2023-02-15T22:54:13 IST" name="Suite" finished-at="2023-02-15T22:54:47 IST" duration-ms="34743">
     <groups>
     </groups>
-    <test started-at="2023-02-13T13:02:14 IST" name="Test" finished-at="2023-02-13T13:02:35 IST" duration-ms="21232">
+    <test started-at="2023-02-15T22:54:13 IST" name="Test" finished-at="2023-02-15T22:54:47 IST" duration-ms="34743">
       <class name="testNG.VerifyBuyProduct">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-13T13:02:14 IST" name="openBrowser" finished-at="2023-02-13T13:02:17 IST" duration-ms="2863" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-15T22:54:13 IST" name="openBrowser" finished-at="2023-02-15T22:54:17 IST" duration-ms="4674" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,32 +18,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="createObjects()[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-13T13:02:17 IST" name="createObjects" finished-at="2023-02-13T13:02:17 IST" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="createObjects()[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-15T22:54:17 IST" name="createObjects" finished-at="2023-02-15T22:54:17 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createObjects -->
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-13T13:02:17 IST" name="launchURL" finished-at="2023-02-13T13:02:26 IST" duration-ms="9241" status="PASS">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-15T22:54:17 IST" name="launchURL" finished-at="2023-02-15T22:54:30 IST" duration-ms="12975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="verifyAddtoCartProduct()[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-13T13:02:26 IST" name="verifyAddtoCartProduct" finished-at="2023-02-13T13:02:35 IST" duration-ms="8929" status="FAIL">
+        <test-method signature="verifyAddtoCartProduct()[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-15T22:54:30 IST" name="verifyAddtoCartProduct" finished-at="2023-02-15T22:54:47 IST" duration-ms="16833" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-product Name is Wrong expected [IKALL K475 Smartphone (4GB, 64GB) (Sky Blue)] but found [IKALL Z9 Smartphone with 6 Inch Display Android 10(3GB RAM, 32GB Internal Memory) (Green)],
-MRP is wrong expected [9999] but found [4,999],
+product Name is Wrong expected [IKALL K475 Smartphone (4GB, 64GB) (Sky Blue)] but found [Tecno Spark 9 (Infinity Black, 6GB RAM,128GB Storage) | 11GB Expandable RAM | Helio G37 Gaming Processor],
+MRP is wrong expected [9999] but found [8,999],
 given discount  is wrong expected [0] but found [],
-given discount  is wrong expected [6299] but found [4,999]]]>
+given discount  is wrong expected [6299] but found [8,999]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-product Name is Wrong expected [IKALL K475 Smartphone (4GB, 64GB) (Sky Blue)] but found [IKALL Z9 Smartphone with 6 Inch Display Android 10(3GB RAM, 32GB Internal Memory) (Green)],
-MRP is wrong expected [9999] but found [4,999],
+product Name is Wrong expected [IKALL K475 Smartphone (4GB, 64GB) (Sky Blue)] but found [Tecno Spark 9 (Infinity Black, 6GB RAM,128GB Storage) | 11GB Expandable RAM | Helio G37 Gaming Processor],
+MRP is wrong expected [9999] but found [8,999],
 given discount  is wrong expected [0] but found [],
-given discount  is wrong expected [6299] but found [4,999]
+given discount  is wrong expected [6299] but found [8,999]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at testNG.VerifyBuyProduct.verifyAddtoCartProduct(VerifyBuyProduct.java:90)
+at testNG.VerifyBuyProduct.verifyAddtoCartProduct(VerifyBuyProduct.java:91)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -78,11 +78,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddtoCartProduct -->
-        <test-method is-config="true" signature="makeAllObjectsNull()[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-13T13:02:35 IST" name="makeAllObjectsNull" finished-at="2023-02-13T13:02:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="makeAllObjectsNull()[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-15T22:54:47 IST" name="makeAllObjectsNull" finished-at="2023-02-15T22:54:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeAllObjectsNull -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-13T13:02:35 IST" name="closeBrowser" finished-at="2023-02-13T13:02:35 IST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNG.VerifyBuyProduct@3e84448c]" started-at="2023-02-15T22:54:47 IST" name="closeBrowser" finished-at="2023-02-15T22:54:47 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

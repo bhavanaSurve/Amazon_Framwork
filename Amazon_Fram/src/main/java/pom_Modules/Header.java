@@ -7,7 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Header 
-{
+{	
+	//String "Sonal";
 	WebDriver driver ;
 	private Actions act ;
 	@FindBy (xpath = "//span[@class='nav-line-2 ']")
