@@ -19,6 +19,7 @@ public class Utility
 {
 	static String  data;
 //int sonal branch change;
+	String "new";
 	
 // for take screen shot
 	public static void captureScreenShot(String testId,WebDriver driver) throws IOException
